@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4285f3",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "老周Family",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "backgroundColor": "#4285f3",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "打个飞机",
+        "iconPath": "images/airplane-landing.png",
+        "selectedIconPath": "images/airplane-takeoff.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "查看日志",
+        "iconPath": "images/code-tags-normal.png",
+        "selectedIconPath": "images/code-tags-selected.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "看个视频",
+        "iconPath": "images/youtube-play-normal.png",
+        "selectedIconPath": "images/youtube-play-selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 1000,
+    "connectSocket": 1000,
+    "uploadFile": 1000,
+    "downloadFile": 1000
+  },
+  "debug": true
+}
